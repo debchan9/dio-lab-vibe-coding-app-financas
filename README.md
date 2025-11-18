@@ -31,35 +31,6 @@ Um app que conversa com você como um “Agente Financeiro Pessoal”, entendend
   - Recursos técnicos necessários (ex: NLP, categorização automática, motor de metas)
   - Estratégia de validação inicial (ex: testes com 5 usuários reais, análise de engajamento no chat)
 - Linguagem acessível e tom educativo, em português.
-
-## O que é Design Universal
-Design Universal é uma abordagem de design que busca criar produtos, ambientes e interfaces que possam ser usados pelo maior número possível de pessoas, sem necessidade de adaptação ou projeto especializado.
-
-### Princípios básicos:
-- Equidade no uso: Funciona bem para pessoas com diferentes habilidades.
-- Flexibilidade: Permite diferentes formas de interação (toque, voz, teclado).
-- Simplicidade e Intuitividade: Fácil de entender, mesmo sem instruções.
-- Perceptibilidade: Informações visuais, sonoras e táteis são claras e acessíveis.
-- Tolerância a erros: Minimiza riscos e consequências de ações equivocadas.
-- Baixo esforço físico: Requer pouca força ou precisão motora.
-- Espaço adequado para uso: Considera diferentes tamanhos de tela, dispositivos e contextos.
-
-## O que é um PRD
-PRD (Product Requirements Document) é um documento que descreve:
-- O problema que o produto resolve
-- Para quem ele é feito
-- Como ele vai funcionar (funcionalidades)
-- Por que ele é relevante
-
-Ele serve como guia para designers, desenvolvedores e stakeholders entenderem o que será construído e por quê.
-
-## O que é Vibe Coding
-Vibe Coding é uma abordagem de desenvolvimento que une:
-- Criatividade (design, UX, storytelling)
-- Tecnologia (prototipação, IA, automações)
-- Intuição de produto (resolver problemas reais com empatia)
-
-É muito usada em plataformas como o Lovable, onde a ideia é criar experiências digitais com alma — que tenham propósito, estética e impacto.
 ```
 
 Interações com o lovable:
