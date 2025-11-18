@@ -1,6 +1,10 @@
 # 💸 App de Finanças Pessoais com Vibe Coding
 
-PRD refinado no Copilot Web:
+Este projeto foi desenvolvido como um Desafio de Projeto de Vibe Coding utilizando o Lovable  e o Copilot Web. Com foco em criar um aplicativo de organização financeiro pessoal baseado em interações em linguaguem natural.
+
+---
+
+## 📝 PRD Refinado no Copilot Web
 
 ```markdown
 # PRD: App de Finanças com Conversa Natural
@@ -30,49 +34,62 @@ Um app que conversa com você como um “Agente Financeiro Pessoal”, entendend
   - Principais telas (wireframes conceituais)
   - Recursos técnicos necessários (ex: NLP, categorização automática, motor de metas)
   - Estratégia de validação inicial (ex: testes com 5 usuários reais, análise de engajamento no chat)
-- Linguagem acessível e tom educativo, em português.
+  - Linguagem acessível e tom educativo, em português.
 ```
 
-Interações com o lovable:
+---
 
-> Crie um App de Finanças com o seguinte PRD (Product Requirements Document):{PRD}
+## 📸 Interações com o Lovable
 
-> Tentei criar uma meta chamada Reserva e um registro de gastos via chat em linguagem natural meu app "Assistente Financeiro" e preciso validar se as funcionalidades principais estão funcionando corretamente. Aqui estão os pontos que não estão atualizando como esperado:
-Ao enviar "gastei 50 reais no mercado" no chat, o gasto não aparece no dashboard. Ao criar uma meta de R$ 1000, ela não é registrada nem exibida na aba de metas.O dashboard não atualiza com os dados inseridos via chat ou metas criadas.Quero que o Lovable verifique:
-Se os dados estão sendo corretamente salvos no Supabase
-Se os componentes Dashboard e Goals estão escutando e renderizando os dados atualizados
-Se há falhas na lógica de sincronização entre o chat e o dashboard/metas
-Se os hooks ou chamadas de API estão funcionando corretamente
-Me ajude a corrigir esses pontos para que o app reflita os dados em tempo real e funcione conforme o PRD.
+> Crie um App de Finanças com o seguinte PRD (Product Requirements Document): {PRD}
 
-Resultado Final no Lovable:https://chat-financeiro-facil.lovable.app
+> Tentei criar uma meta chamada "Reserva" e um registro de gastos via chat em linguagem natural. Meu app "Assistente Financeiro" precisa ser validado para garantir que as funcionalidades principais estão funcionando corretamente.
+
+> Aqui estão os pontos que não estão atualizando como esperado:
+- Ao enviar "gastei 50 reais no mercado" no chat, o gasto não aparece no dashboard.
+- Ao criar uma meta de R$ 1000, ela não é registrada nem exibida na aba de metas.
+- O dashboard não atualiza com os dados inseridos via chat ou metas criadas.
+
+> Quero que o Lovable verifique:
+- Se os dados estão sendo corretamente salvos no Supabase
+- Se os componentes Dashboard e Goals estão escutando e renderizando os dados atualizados
+- Se há falhas na lógica de sincronização entre o chat e o dashboard/metas
+- Se os hooks ou chamadas de API estão funcionando corretamente
+
+---
+
+## ✅ Resultado Final no Lovable
+
+[Visualizar App](https://chat-financeiro-facil.lovable.app)
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/440bdda6-33c4-4ce6-a25e-f1006ecaed2e" />
 
-# Assistente Financeiro
+---
 
-Aplicativo de organização de finanças pessoais com interface conversacional em linguagem natural. Desenvolvido para facilitar o controle financeiro de forma acessível, intuitiva e inclusiva.
+## 📌 Resumo do App
 
-## Funcionalidades Principais
+**Assistente Financeiro** é um aplicativo de organização de finanças pessoais com interface conversacional em linguagem natural. Desenvolvido para facilitar o controle financeiro de forma acessível, intuitiva e inclusiva.
 
-### 1. Registro de Gastos via Chat
+### Funcionalidades Principais
+
+#### 1. Registro de Gastos via Chat
 O usuário pode registrar despesas usando linguagem natural, como:
 - "Gastei 50 reais no mercado"
 
 Essas mensagens são interpretadas automaticamente e transformadas em registros financeiros.
 
-### 2. Classificação Automática de Transações
+#### 2. Classificação Automática de Transações
 Os gastos são categorizados com base no conteúdo da mensagem. Exemplo:
 - Alimentação: R$ 50,00
 - Outros: R$ 3200,00
 
-### 3. Criação e Acompanhamento de Metas Financeiras
+#### 3. Criação e Acompanhamento de Metas Financeiras
 O usuário pode definir metas como:
 - "Quero criar uma meta de R$ 1000"
 
 O app registra a meta e acompanha seu progresso. No dashboard, é possível visualizar o número de metas ativas.
 
-### 4. Visualização de Relatórios Simples
+#### 4. Visualização de Relatórios Simples
 O dashboard exibe:
 - Total gasto acumulado
 - Gastos do mês atual
@@ -81,19 +98,25 @@ O dashboard exibe:
 
 Essas informações ajudam o usuário a entender para onde está indo seu dinheiro.
 
-### 5. Interface Conversacional e Educativa
+#### 5. Interface Conversacional e Educativa
 A interação é feita por meio de um chat acessível, com linguagem simples e educativa, facilitando o uso por iniciantes.
 
-### 6. Design Universal
+#### 6. Design Universal
 A interface é desenvolvida com base em princípios de acessibilidade e usabilidade, garantindo que pessoas com diferentes perfis — incluindo idosos, pessoas com deficiência visual, baixa alfabetização digital ou limitações motoras — possam utilizar o app com conforto e autonomia.
 
-## Reflexão
+---
 
-### O que funcionou bem?  
-O refinamento do PRD previamente feito no Copilot ajudou muito, pois oscréditos do lovable acabaram em apenas 3 interações.
- 
-### O que não funcionou como o esperado?  
-Esperava poder interagir mais vexes gratuitamente com o lovable, mas as interações quando bem pensadas já são de grande ajuda para aprender mais sobre o Vibe coding.
+## 💬 Reflexão
 
-### O que aprendeu sobre conversar com IAs?
-Aprendi que é basicamente conversar com uma pessoa, com mais detalhes e clareza você dá, melhor é a interação.
+### O que funcionou bem?
+O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Lovable acabaram em apenas 3 interações.
+
+### O que não funcionou como o esperado?
+Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interações quando bem pensadas já são de grande ajuda para aprender mais sobre o Vibe Coding.
+
+### O que aprendi sobre conversar com IAs?
+Aprendi que é basicamente como conversar com uma pessoa. Quanto mais detalhes e clareza você dá, melhor é a interação.
+
+---
+
+Se quiser, posso te ajudar a criar uma seção de instalação ou instruções de uso para complementar o projeto.
