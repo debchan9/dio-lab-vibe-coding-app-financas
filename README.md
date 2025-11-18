@@ -118,5 +118,3 @@ Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interaç
 Aprendi que é basicamente como conversar com uma pessoa. Quanto mais detalhes e clareza você dá, melhor é a interação.
 
 ---
-
-Se quiser, posso te ajudar a criar uma seção de instalação ou instruções de uso para complementar o projeto.
